@@ -13,7 +13,7 @@
 
 ### Features
 
-- New arrial
+- New arrival
 - Best seller
 - Related products
 - Category
