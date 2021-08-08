@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+@import "~antd/dist/antd.css";
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #586569 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: normal;
+}
+
+.ant-select-selector {
+  border-radius: 0.5rem !important;
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+}
+
+.ant-pagination-item-link,
+.ant-pagination-item {
+  border-radius: 0.5rem !important;
+}
+
+.logo {
+  font-family: "Miriam Libre", sans-serif;
+  color: dodgerblue;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+ol,
+ul,
+dl {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.slider img {
+  height: 400px;
+  object-fit: cover;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+.shop-table,
+.shop-table td,
+.shop-table th {
+  border: 1px solid #4a4a4a;
+  padding: 0.5rem;
+}
+
+.shop-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loader {
+  border: 0.4rem solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 0.4rem solid #4086f4;
+  border-right: 0.4rem solid #eb4132;
+  border-bottom: 0.4rem solid #fcbd01;
+  border-left: 0.4rem solid #31a952;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
